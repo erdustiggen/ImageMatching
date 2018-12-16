@@ -4,10 +4,10 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img_path = "sat_img_stavanger_bottom.png"
-img_path2 = "google_stavanger_bottom.png"
-# img_path = "SatelliteImage.png"
-# img_path2 = "GeoreferencedImage.png"
+# img_path = "NoiselessSatelliteImage.png"
+# img_path2 = "NoiselessSatelliteImage2.png"
+img_path = "sat_img.png"
+img_path2 = "noiseless_img.png"
 
 # sift = cv2.xfeatures2d.SURF_create(800)
 sift = cv2.xfeatures2d.SIFT_create(800)
